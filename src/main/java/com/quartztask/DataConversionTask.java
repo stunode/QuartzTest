@@ -11,4 +11,8 @@ public class DataConversionTask {
             LOG.info("数据转换任务线程开始执行");
         }
     }
+
+    public void initScheduleJob(){
+        System.out.println("========================initScheduleJob===========================");
+    }
 }
